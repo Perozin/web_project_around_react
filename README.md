@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React + Vite](https://img.shields.io/badge/React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-[![Preview do projeto](./src/assets/preview-around.png)](https://perozin.github.io/web_project_around_react)
+[![Preview do projeto](./src/assets/preview-around.png)](https://perozin.github.io/web_project_around_react/)
 
 > 🎯 **Clique na imagem acima para acessar o projeto publicado**  
 > 💡 **Click on the image above to access the published project**
