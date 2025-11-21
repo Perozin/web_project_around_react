@@ -1,0 +1,556 @@
+/* -------------  1280  ------------- */
+
+/* li */
+
+.element {
+  max-width: 282px;
+  max-width: 361px;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* image */
+
+.element__image {
+  max-width: 282px;
+  height: 282px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Trash */
+
+.element__delete-button {
+  max-width: 18px;
+  max-height: 19.3px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-image: url("../images/white-trash.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  right: 15px;
+  top: 20px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.element__delete-button:hover {
+  background-image: url("../images/grew-trash.svg");
+  cursor: pointer;
+}
+
+/* description */
+
+.element__description {
+  max-width: 246px;
+  max-height: 23px;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 25px auto 31px;
+  padding: 0;
+}
+
+/* title */
+
+.element__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  background-color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+/* like-button */
+
+.element__like-button {
+  width: 21px;
+  height: 19px;
+  background-color: transparent;
+  background-image: url("../images/element-like-disabled.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.element__like-button:hover {
+  opacity: 0.6;
+}
+
+.element__like-button_active {
+  background-image: url("../images/element-like-active.svg");
+}
+
+/* -------------  1152 ------------- */
+
+@media screen and (max-width: 1152px) {
+  /* li */
+
+  .element {
+    max-width: 253.8px;
+    max-height: 324.9px;
+    border-radius: 9px;
+  }
+
+  /* image */
+
+  .element__image {
+    max-width: 253.8px;
+    height: 253.8px;
+    border-radius: 9px 9px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 221.4px;
+    max-height: 20.7px;
+    margin: 22.5px auto 27.9px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 21.6px;
+    line-height: 26.1px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 18.9px;
+    height: 17.1px;
+    margin: auto 2.7px 0.9px 0;
+  }
+}
+
+/* -------------  1088------------- */
+
+@media screen and (max-width: 1088px) {
+  /* li */
+
+  .element {
+    max-width: 239.68px;
+    max-height: 306.83px;
+    border-radius: 8.49px;
+  }
+
+  /* image */
+
+  .element__image {
+    max-width: 239.68px;
+    height: 239.68px;
+    border-radius: 8.49px 8.49px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 209.09px;
+    max-height: 19.54px;
+    margin: 21.24px auto 26.34px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 20.39px;
+    line-height: 24.64px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 17.84px;
+    height: 16.14px;
+    margin: auto 2.54px 0.84px 0;
+  }
+}
+
+/* -------------  1024  ------------- */
+
+@media screen and (max-width: 1024px) {
+  /* li */
+
+  .element {
+    max-width: 225.56px;
+    max-height: 288.75px;
+    border-radius: 7.98px;
+  }
+
+  /* image */
+
+  .element__image {
+    max-width: 224.92px;
+    height: 224.92px;
+    border-radius: 7.98px 7.98px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 196.77px;
+    max-height: 18.38px;
+    margin: 19.98px auto 24.78px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 19.18px;
+    line-height: 23.18px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 16.78px;
+    height: 15.18px;
+    margin: auto 2.39px 0.79px 0;
+  }
+}
+
+/* -------------  896 ------------- */
+
+@media screen and (max-width: 896px) {
+  /* li */
+
+  .element {
+    max-width: 197.36px;
+    max-height: 252.65px;
+    border-radius: 6.98px;
+  }
+
+  /* image */
+
+  .element__image {
+    max-width: 197.36px;
+    height: 197.36px;
+    border-radius: 6.98px 6.98px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 172.17px;
+    max-height: 16.08px;
+    margin: 17.48px auto 21.68px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 16.78px;
+    line-height: 20.28px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 14.68px;
+    height: 13.28px;
+    margin: auto 2.09px 0.69px 0;
+  }
+}
+
+/* -------------  768 ------------- */
+
+@media screen and (max-width: 768px) {
+  /* li */
+
+  .element {
+    max-width: 206.37px;
+    max-height: 314.49px;
+    border-radius: 8.66px;
+  }
+
+  /* image */
+
+  .element__image {
+    max-width: 206.37px;
+    height: 206.37px;
+    border-radius: 8.66px 8.66px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    /* max-width: 214.32px; */
+    max-width: 190px;
+    max-height: 20.02px;
+    margin: 21.73px auto 26.96px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 20.87px;
+    line-height: 25.24px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 17.63px;
+    height: 16.5px;
+    margin: auto 2.57px 0.84px 0;
+  }
+}
+
+/* -------------  656  ------------- */
+
+@media screen and (max-width: 656px) {
+  /* li */
+
+  .element {
+    max-width: 209.86px;
+    max-height: 268.64px;
+    border-radius: 7.4px;
+  }
+
+  /* image */
+
+  .element__image {
+    max-width: 209.86px;
+    height: 209.86px;
+    border-radius: 7.4px 7.4px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 183.07px;
+    max-height: 17.11px;
+    margin: 18.57px auto 23.03px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 17.83px;
+    line-height: 21.57px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 15.6px;
+    height: 14.1px;
+    margin: auto 2.2px 0.72px 0;
+  }
+}
+
+/* -------------  544  ------------- */
+
+@media screen and (max-width: 544px) {
+  /* li */
+
+  .element {
+    max-width: 475.82px;
+    min-height: 609.12px;
+    width: 100%;
+    height: 100%;
+    border-radius: 16.96px;
+  }
+
+  /* image */
+
+  .element__image {
+    max-width: 475.82px;
+    max-height: 475.82px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 16.85px 16.85px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 415.08px;
+    max-height: 38.8px;
+    width: 100%;
+    height: 100%;
+    margin: 42.17px auto 52.3px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 40.48px;
+    line-height: 48.92px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 35.41px;
+    height: 32.05px;
+    margin: auto 5.05px -1.67px 0;
+  }
+}
+
+/* -------------  432  ------------- */
+
+@media screen and (max-width: 432px) {
+  /* li */
+
+  .element {
+    max-width: 380.66px;
+    min-height: 487.3px;
+    border-radius: 13.57px;
+  }
+
+  /* image */
+
+  .element__image {
+    max-width: 380.66px;
+    min-height: 380.66px;
+    border-radius: 13.48px 13.48px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 332.07px;
+    max-height: 31.04px;
+    margin: 33.74px auto 41.84px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 32.39px;
+    line-height: 39.14px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 28.33px;
+    height: 25.64px;
+    margin: auto 4.04px -1.34px 0;
+  }
+}
+
+/* -------------  375  ------------- */
+
+@media screen and (max-width: 375px) {
+  /* li */
+
+  .element {
+    max-width: 330.44px;
+    max-height: 423.01px;
+    min-height: 0;
+    border-radius: 11.78px;
+  }
+
+  /* image */
+
+  .element__image {
+    width: 100%;
+    height: auto;
+    min-height: 330.44px;
+    border-radius: 11.71px 11.71px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 288.26px;
+    max-height: 26.95px;
+    margin: 29.29px auto 36.32px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 28.12px;
+    line-height: 33.98px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 24.6px;
+    height: 22.26px;
+    margin: auto 3.51px 1.17px 0;
+  }
+}
+
+/* -------------  320  ------------- */
+
+@media screen and (max-width: 320px) {
+  /* li */
+
+  .element {
+    max-width: 282px;
+    max-height: 361px;
+    min-height: 0;
+    border-radius: 10px;
+  }
+
+  /* image */
+
+  .element__image {
+    width: 100%;
+    min-height: 282px;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  /* description */
+
+  .element__description {
+    max-width: 246px;
+    max-height: 23px;
+    margin: 25px auto 31px;
+  }
+
+  /* title */
+
+  .element__title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  /* like-button */
+
+  .element__like-button {
+    width: 21px;
+    height: 19px;
+    margin: auto 3px 1px 0;
+  }
+}

@@ -1,0 +1,309 @@
+/* -------------  1280  ------------- */
+
+/* header */
+
+.header {
+  max-width: 880px;
+  max-height: 74px;
+  margin: 45px 200px 0;
+  padding: 0;
+}
+
+/* Vector */
+
+.header__vector {
+  max-width: 173px;
+  max-height: 33px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__vector-image {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line */
+
+.header__line {
+  max-width: 880px;
+  max-height: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  border: 1px solid #545454;
+  margin: 41px 0 0;
+  padding: 0;
+}
+
+/* -------------  1152 ------------- */
+
+@media screen and (max-width: 1152px) {
+  /* Header */
+
+  .header {
+    max-width: 792px;
+    max-height: 66.6px;
+    margin: 40.5px 107.59px 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 155.7px;
+    max-height: 27.9px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 792px;
+    margin: 36.9px 0 0;
+  }
+}
+
+/* -------------  1088  ------------- */
+
+@media screen and (max-width: 1088px) {
+  /* Header */
+
+  .header {
+    max-width: 747.96px;
+    max-height: 62.89px;
+    margin: 38.24px 84.99px 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 147.04px;
+    max-height: 26.34px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 747.96px;
+    margin: 34.84px 0 0;
+  }
+}
+
+/* -------------  1024  ------------- */
+
+@media screen and (max-width: 1024px) {
+  /* Header */
+
+  .header {
+    max-width: 703.9px;
+    max-height: 59.18px;
+    margin: 35.98px 79.98px 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 138.37px;
+    max-height: 24.78px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 703.9px;
+    margin: 32.78px 0 0;
+  }
+}
+
+/* -------------  896 ------------- */
+
+@media screen and (max-width: 896px) {
+  /* header */
+
+  .header {
+    max-width: 615.91px;
+    max-height: 51.78px;
+    margin: 31.48px 5.641px 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 121.07px;
+    max-height: 21.68px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 615.91px;
+    margin: 28.68px 0 0;
+  }
+}
+
+/* -------------  768 ------------- */
+
+@media screen and (max-width: 768px) {
+  /* Header */
+
+  .header {
+    max-width: 527.89px;
+    max-height: 44.38px;
+    margin: 26.98px 0 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 103.76px;
+    max-height: 18.58px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 527.89px;
+    margin: 22.86px 0 0;
+  }
+}
+
+/* -------------  656  ------------- */
+
+@media screen and (max-width: 656px) {
+  /* Header */
+
+  .header {
+    max-width: 450.87px;
+    max-height: 37.9px;
+    margin: 23.04px 4.16px 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 88.63px;
+    max-height: 15.86px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 450.87px;
+    margin: 19.52px 0 0;
+  }
+}
+
+/* -------------  544  ------------- */
+
+@media screen and (max-width: 544px) {
+  /* Header */
+
+  .header {
+    max-width: 475.82px;
+    max-height: 94.48px;
+    margin: 47.23px 5.08px 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 212.6px;
+    max-height: 40.48px;
+    margin: 0 auto 0 45.53px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 475.82px;
+    box-sizing: border-box;
+    margin: 53.95px 0 0;
+  }
+}
+
+/* -------------  432  ------------- */
+
+@media screen and (max-width: 432px) {
+  /* Header */
+
+  .header {
+    max-width: 380.66px;
+    max-height: 75.59px;
+    margin: 37.79px 4.07px 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 170.08px;
+    max-height: 32.39px;
+    margin: 0 auto 0 36.43px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 380.66px;
+    box-sizing: border-box;
+    margin: 43.18px 0 0;
+  }
+}
+
+/* -------------  375  ------------- */
+
+@media screen and (max-width: 375px) {
+  /* Header */
+
+  .header {
+    max-width: 330.44px;
+    max-height: 65.62px;
+    width: 100%;
+    margin: 32.81px auto 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 147.64px;
+    max-height: 28.12px;
+    margin: 0 auto 0 31.63px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 330.44px;
+    box-sizing: border-box;
+    margin: 37.49px auto 0;
+  }
+}
+
+/* -------------  320  ------------- */
+
+@media screen and (max-width: 320px) {
+  /* Header */
+
+  .header {
+    max-width: 320px;
+    max-height: 56px;
+    width: 100%;
+    margin: 28px 0 0;
+  }
+
+  /* Vector */
+
+  .header__vector {
+    max-width: 126px;
+    max-height: 24px;
+    margin: 0 auto 0 27px;
+  }
+
+  /* line */
+
+  .header__line {
+    max-width: 320px;
+    box-sizing: border-box;
+    margin: 32px 0 0;
+  }
+}

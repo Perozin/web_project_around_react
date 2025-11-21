@@ -1,0 +1,103 @@
+/* -------------  MAIN CONTENT  ------------- */
+
+/* -------------  1280  ------------- */
+
+.content {
+  max-width: 880px;
+  margin: 40px 200px 0;
+  padding: 0;
+}
+
+/* -------------  1152 ------------- */
+
+@media screen and (max-width: 1152px) {
+  .content {
+    max-width: 792px;
+    margin: 32.4px 107.59px 0;
+  }
+}
+
+/* -------------  1088------------- */
+
+@media screen and (max-width: 1088px) {
+  .content {
+    max-width: 747.96px;
+    margin: 30.59px 84.99px 0;
+  }
+}
+
+/* -------------  1024  ------------- */
+
+@media screen and (max-width: 1024px) {
+  .content {
+    max-width: 703.9px;
+    margin: 28.78px 79.98px 0;
+  }
+}
+
+/* -------------  896 ------------- */
+
+@media screen and (max-width: 896px) {
+  .content {
+    max-width: 615.91px;
+    margin: 25.18px 0 0;
+  }
+}
+
+/* -------------  768 ------------- */
+
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 527.89px;
+    margin: 21.58px 0 0;
+  }
+}
+
+/* -------------  656  ------------- */
+
+@media screen and (max-width: 656px) {
+  .content {
+    max-width: 450.87px;
+    margin: 18.49px 0 0;
+  }
+}
+
+/* -------------  544  ------------- */
+
+@media screen and (max-width: 544px) {
+  .content {
+    max-width: 475.82px;
+    margin: 70.85px 0 0;
+    padding: 0;
+  }
+}
+
+/* -------------  432  ------------- */
+
+@media screen and (max-width: 432px) {
+  .content {
+    max-width: 380.66px;
+    margin: 56.68px 4.07px 0;
+    padding: 0;
+  }
+}
+
+/* -------------  375  ------------- */
+
+@media screen and (max-width: 375px) {
+  .content {
+    max-width: 330.44px;
+    margin: 49.21px 3.53px 0;
+    padding: 0;
+  }
+}
+
+/* -------------  320  ------------- */
+
+@media screen and (max-width: 320px) {
+  .content {
+    max-width: 282px;
+    margin: 42px 19px 0;
+    padding: 0;
+  }
+}
