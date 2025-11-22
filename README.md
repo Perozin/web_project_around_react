@@ -11,19 +11,17 @@
 > 🎯 **Clique na imagem acima para acessar o projeto publicado**  
 > 💡 **Click on the image above to access the published project**
 
----
-
-## 🗣️ **README BILÍNGUE — Português / English**
+## 🗣️ **README BILÍNGUE — <img src="https://flagcdn.com/w20/br.png" width="20"/> Português | <img src="https://flagcdn.com/w20/us.png" width="20"/> English**
 
 ---
 
-## 🇧🇷 1. **Nome do Projeto**
+## <img src="https://flagcdn.com/w20/br.png" width="20"/> 1. **Nome do Projeto**
 
 **web_project_around_react**
 
 ---
 
-## 🇧🇷 2. **Descrição do Projeto**
+## <img src="https://flagcdn.com/w20/br.png" width="20"/> 2. **Descrição do Projeto**
 
 ### Este projeto representa a evolução do **web_project_around**, migrado para a tecnologia **React** + **Vite** para proporcionar:
 
@@ -49,13 +47,13 @@ Agora, tudo utilizando **estado local**, **efeitos**, **JSX**, **componentizaç�
 
 ---
 
-## 🇺🇸 1. **Project Name**
+## <img src="https://flagcdn.com/w20/us.png" width="20"/> 1. **Project Name**
 
 **web_project_around_react**
 
 ---
 
-## 🇺🇸 2. **Project Description**
+## <img src="https://flagcdn.com/w20/us.png" width="20"/> 2. **Project Description**
 
 ### This project represents the evolution of **web_project_around**, migrated to **React + Vite** technology to provide:
 
