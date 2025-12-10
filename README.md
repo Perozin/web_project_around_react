@@ -80,18 +80,6 @@ A nova arquitetura agora segue:
 
 ### This project represents the evolution of **web_project_around**, migrated to **React + Vite** technology to provide:
 
----
-
-## <img src="https://flagcdn.com/w20/us.png" width="20"/> 1. **Project Name**
-
-**web_project_around_react**
-
----
-
-## <img src="https://flagcdn.com/w20/us.png" width="20"/> 2. **Project Description**
-
-### This project represents the evolution of **web_project_around**, migrated to **React + Vite** technology to provide:
-
 ```
 - React functional components
 - React Hooks (useState, useEffect)
