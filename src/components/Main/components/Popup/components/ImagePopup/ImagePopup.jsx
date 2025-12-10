@@ -1,9 +1,8 @@
-// Funcionando nas premissas 2 e 3 + ESC corrigido
 // src/components/Main/components/Popup/components/ImagePopup/ImagePopup.jsx
 import { useEffect } from "react";
 
 export default function ImagePopup({ card, onClose }) {
-  // Fechar com ESC (mesmo comportamento do Popup.jsx)
+  // Fechar com ESC
   useEffect(() => {
     if (!card) return; // só ativa quando houver imagem aberta
 
@@ -46,18 +45,3 @@ export default function ImagePopup({ card, onClose }) {
     </div>
   );
 }
-
-// ================================================
-
-// // ULTIMAS ATUALIZAÇÕES FICOU PERFEITO (SÓ FALTA OS LOADING)
-// // src/components/Main/components/Popup/components/ImagePopup/ImagePopup.jsx
-// export default function ImagePopup({ card }) {
-//   if (!card) return null;
-
-//   return (
-//     <>
-//       <img src={card.link} alt={card.name} className="popup__image" />
-//       <p className="popup__caption">{card.name}</p>
-//     </>
-//   );
-// }

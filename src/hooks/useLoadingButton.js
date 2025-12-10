@@ -1,4 +1,3 @@
-// ULTIMAS ATUALIZAÇÕES FICOU PERFEITO (SÓ FALTA OS LOADING)
 // src/hooks/useLoadingButton.js
 import { useState } from "react";
 
