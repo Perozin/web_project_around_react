@@ -45,6 +45,41 @@
 
 Agora, tudo utilizando **estado local**, **efeitos**, **JSX**, **componentização total** e **boas práticas** do **ecossistema React**.
 
+### 🔥 **Novidades**
+
+Esse projeto trouxe **melhorias profundas na arquitetura**:
+
+```
+🚀 Reestruturação completa dos Popups
+🧩 Padronização de props: onClose, onSubmit, isOpen
+🎛️ Controle centralizado de modais no App.jsx
+📦 Melhora na árvore de componentes
+🖼️ PopupImage funcionando isoladamente
+✏️ PopupEditProfile totalmente funcional
+➕ PopupAddPlace integrado ao fluxo principal
+👤 PopupEditAvatar reestruturado
+```
+
+A nova arquitetura agora segue:
+
+- Um único **estado central** para controlar cada modal
+- Todos os Popups recebem **isOpen, onClose e onSubmit**
+- Estados limpos a cada abertura
+- Identidade visual corrigida no CSS
+- Componentes totalmente independentes
+
+---
+
+## <img src="https://flagcdn.com/w20/us.png" width="20"/> 1. **Project Name**
+
+**web_project_around_react**
+
+---
+
+## <img src="https://flagcdn.com/w20/us.png" width="20"/> 2. **Project Description**
+
+### This project represents the evolution of **web_project_around**, migrated to **React + Vite** technology to provide:
+
 ---
 
 ## <img src="https://flagcdn.com/w20/us.png" width="20"/> 1. **Project Name**
@@ -77,6 +112,28 @@ Agora, tudo utilizando **estado local**, **efeitos**, **JSX**, **componentizaç�
 
 Now, everything uses **local state**, **effects**, **JSX**, **full componentization**, and **best practices** from the **React ecosystem**.
 
+### 🔥 **New Features**
+
+This project brought **profound improvements to the architecture**:
+
+```
+🚀 Full popup architecture rebuilt
+🧩 Standard props (onClose, onSubmit, isOpen)
+📌 Central modal state in App.jsx
+🖼️ PopupImage working cleanly
+✏️ PopupEditProfile fully functional
+➕ PopupAddPlace integrated smoothly
+👤 PopupEditAvatar refactored and stable
+```
+
+The new architecture now follows:
+
+- A single **central state** to control each modal
+- All Popups receive **isOpen, onClose, and onSubmit** events
+- States cleared on each opening
+- Corrected visual identity in CSS
+- Fully independent components
+
 ---
 
 ## 🎥 3. Demonstração / Demo
@@ -102,15 +159,15 @@ Now, everything uses **local state**, **effects**, **JSX**, **full componentizat
 ## 🧠 5. **Conceitos de React Aplicados / React Concepts Implemented**
 
 ```
-| Conceito / Concept                                   | Descrição / Description                                                                                |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Componentes / Components**                         | UI dividida em unidades independentes e reutilizáveis / UI divided into independent and reusable units |
-| **JSX**                                              | Sintaxe de template integrada ao JavaScript / Template syntax integrated into JavaScript               |
-| **Props**                                            | Comunicação entre componentes / Communication between components                                       |
-| **useState()**                                       | Gerenciamento de estado interno / Internal state management                                            |
-| **useEffect()**                                      | Execução de efeitos colaterais / Side effects execution                                                |
-| **Renderização Declarativa / Declarative Rendering** | UI sempre refletindo o estado atual / UI always reflecting the current state                           |
-| **Virtual DOM**                                      | Atualizações eficientes e performáticas / Efficient and high-performance updates                       |
+| Conceito / Concept           | Descrição / Description                                                               |
+| ---------------------------- | ------------------------------------------------------------------------------------- |
+| **Componentes / Components** | UI dividida em unidades independentes e reutilizáveis / Independent reusable UI units |
+| **JSX**                      | Sintaxe integrada ao JavaScript / Template syntax integrated into JS                  |
+| **Props**                    | Comunicação entre componentes / Communication between components                      |
+| **useState()**               | Estado interno / Internal state                                                       |
+| **useEffect()**              | Efeitos colaterais / Side effects                                                     |
+| **Modais controlados**       | Popup flow managed entirely by React state                                            |
+| **Lifting State Up**         | Estado compartilhado movido para o App.jsx                                            |
 ```
 
 ---
@@ -127,19 +184,21 @@ web_project_around_react/
 │ │ ├── Header/
 │ │ ├── Footer/
 │ │ ├── Popup/
+│ │ │ ├── Popup.jsx
+│ │ │ ├── PopupImage.jsx
+│ │ │ ├── components/
+│ │ │ │ ├── EditProfile/
+│ │ │ │ ├── NewCard/
+│ │ │ │ └── EditAvatar/
 │ │ ├── Profile/
 │ │ └── Forms/
-│ ├── hooks/
 │ ├── pages/
 │ │ └── App.jsx
-│ ├── contexts/
-│ ├── utils/
 │ ├── styles/
+│ ├── utils/
 │ └── main.jsx
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+├── README.md
+└── vite.config.js
 ```
 
 ---
@@ -148,13 +207,13 @@ web_project_around_react/
 
 ```
 ✅ Componentização completa / Complete componentization
-✅ Estado isolado por componentes / Isolated state by components
-✅ Hooks (useState, useEffect)
-✅ Props para comunicação hierárquica / Props for hierarchical communication
-✅ Modal React com controle de estado / Modal React with state control
-✅ Adição dinâmica de cards / Dynamic card addition
-✅ Exclusão e edição reativas / Reactive deletion and editing
-✅ Estrutura preparada para API real no futuro / Structure prepared for real-world API development in the future.
+✅ Estado isolado e estruturado / Isolated and structured state
+✅ Modais totalmente controlados / Fully controlled modals
+✅ Efeitos e estados limpos a cada abertura / Clear effects and states on each opening
+✅ Adição e remoção dinâmica de cards / Dynamic card addition and removal
+✅ Edição de perfil funcional / Functional profile editing
+✅ Atualização de avatar / Avatar update
+✅ Visualização ampliada de imagens / Enlarged image view
 ```
 
 ---
@@ -184,21 +243,25 @@ npm run dev
 
 ## 🧾 9. **Resumo de Atualizações / Changelog**
 
-### 📌 Introdução ao React / Introduction to React
+### 📌 Projeto anterior / Previous project
 
-- 🌐 JSX
-- 🔧 Componentes funcionais e de classe / Functional and class components
-- 🧩 Listas, chaves e eventos / Lists, keys, and events
-- 🧠 DOM Virtual / Virtual DOM
-- 📂 Abordagem declarativa / Declarative approach
+- 🌐 Estrutura inicial dos componentes / Estrutura inicial dos componentes
+- 🔧 Criação básica dos modais / Basic Modal Creation
+- 🧩 Cards e perfil funcionais / Basic Modal Creation
+- 🧠 Criação básica dos modais / Basic Modal Creation
+- 📂 Cards e perfil funcionais / Basic Modal Creation
 
-### 📌 Ferramentas do React + Vite / Ferramentas do React + Vite
+### 📌 Nova versão (reestruturação Completa dos Popups) / New version (complete restructuring of Popups)
 
-- 📱 Criação do projeto com Vite / Project creation with Vite
-- 🌐 Estruturação profissional de pastas / Professional folder structuring
-- 🔧 Importação de componentes, fontes, imagens / Importing components, fonts, and images.
-- 🧩 React DevTools
-- 🧠 Build e otimizações / Build and optimizations
+- 🔥 Novo estado central no App.jsx / New central state in App.jsx
+- 🧩 Todos os modais padronizados / All modals standardized
+- 🧹 Limpeza automática de estados ao abrir / Automatic state clearing on opening
+- 🎯 Correção dos erros "onClose is not a function" / Fixed "onClose is not a function" errors
+- 📦 PopupImage isolado e funcional / Isolated and functional PopupImage
+- ✏️ Edição de perfil redesenhada / Redesigned profile editing
+- ➕ Novo card integrado ao fluxo / New card integrated into the flow
+- 👤 Modal de avatar com validação / Avatar modal with validation
+- 🎨 Correções de CSS e comportamento / CSS and behavior fixes
 
 ### 📌 Hooks
 
@@ -213,8 +276,8 @@ npm run dev
 
 - [ ] 🔄 Integrar API real / Integrate real API (Node.js / Express)
 - [ ] 🌐 Criar contexto global / Create a global context. (Context API)
-- [ ] 🔐 Adicionar / To add useReducer()
-- [ ] 🧩 Criar versão responsiva com / Create a responsive version with Styled Components ou Tailwind
+- [ ] 🔐 Implementar useReducer / To add useReducer
+- [ ] 🧩 Criar versão responsiva com Styled Components ou Tailwin/ Create a responsive version with Styled Components ou Tailwind
 - [ ] 🎨 Implementar autenticação / Implement authentication
 
 ---
