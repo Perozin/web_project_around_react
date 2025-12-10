@@ -1,3 +1,4 @@
+// src/components/Footer/Footer.jsx
 export function Footer() {
   return (
     <footer className="footer">
